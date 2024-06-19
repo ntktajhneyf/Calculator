@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-dark{
+    background-color: #333741;
+    opacity: 1;
+}
+ .container {
+    margin: auto;
+    width: 540px;
+    
+}
+
+.text-right{
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.calc-btns {
+    width: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 0;
+}
+/* h1 {
+    color: white;
+    text-align: center;
+}
+.inputNumber{
+    display: flex;
+    justify-content: space-around;
+}
+.form-control {
+    height: 20px;
+    border-radius: 15%;
+    background-color: blue;
+    width: 30%;
+
+
+} */
+
+
+@media (min-width: 768px) {
+}
+
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
