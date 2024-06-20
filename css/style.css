@@ -1,18 +1,50 @@
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    
 }
 
 
 .bg-dark{
     background-color: #333741;
     opacity: 1;
+    width: 100%;
+    display: flex;
+    padding: 5rem;
 }
  .container {
     margin: auto;
-    width: 540px;
+    font-size: 0;
+    border-radius: 10%;
+   
     
+}
+
+
+input {
+    background-color: darkgrey;
+    width: 240px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: right;
+    color: black;
+    height: 80px;
+    font-size: 26px;
+    outline: none;
+
+}
+
+input :active {
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
 }
 
 .text-right{
@@ -23,11 +55,26 @@
 
 .calc-btns {
     width: 60px;
-    line-height: 60px;
+    line-height: 50px;
     font-size: 24px;
     font-weight: 500;
-    border: 0;
+    border: 0.001rem solid #b8b7b7;
 }
+
+.active {
+    background-color: red;
+
+}
+
+.operation {
+    background-color: orange;
+}
+
+#zero {
+    width: 120px;
+}
+
+
 /* h1 {
     color: white;
     text-align: center;
@@ -46,7 +93,7 @@
 } */
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 }
 
 
@@ -54,4 +101,4 @@
     .container, .container-sm {
         max-width: 540px;
     }
-}
+} */

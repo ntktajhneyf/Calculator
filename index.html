@@ -4,93 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/calculator-16.ico">
-    <link 
-        rel="stylesheet" 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-        crossorigin="anonymous"
-    >
     <link rel="stylesheet" href="/css/style.css">
     <title>Calculator</title>
     <script src="app.js" defer></script>
 
 </head>
-<body class="bg-dark text-light" style="margin-bottom: 20px;">
-        <div class="container w-50 p-5">
-            <h1>Calculator</h1>
-            <div class="text-bg-light p-3 text-right">
-                <p id="result" class="mb-0">0</p>
-            </div>
-            <div class="inputNumber">
-                <input
-                    type="number"
-                    class="form-control mb-2"
-                    placeholder="Enter first number"
-                    id="input1"
-                    value="0"
-                />
-                <input
-                type="number"
-                class="form-control mb-2"
-                placeholder="Enter second number"
-                id="input2"
-                value="0"
-            />
-        </div>
-        <div class="d-flex mb-2">
-            <button class="btn btn-success flex-grow-1 mx-2" id="plus">+</button>
-            <button class="btn btn-danger flex-grow-1 mx-2" id="minus">-</button>
-            <button class="btn btn-success flex-grow-1 mx-2" id="multiply">*</button>
-            <button class="btn btn-danger flex-grow-1 mx-2" id="divide">/</button>
-        </div>
-        <button class="btn btn-outline-info w-100 mb-2" id="submit">Сalculate</button>
-
-        <div class="text-bg-light p-3 text-center">
-            <h4>Result</h4>
-            <p id="result" class="mb-0">0</p>
-        </div>
-        </div>
-
-
+<body class="bg-dark">
+    
         <div class="container">
             <div id="input"></div>
+            <input placeholder="..0"></input>
             <div class="buttons">
                 <div class="row-1">
                     <button class="calc-btns" id="AC">AC</button>
                     <button class="calc-btns" id="plus_minus">+/-</button>
                     <button class="calc-btns" id="percent">%</button>
-                    <button class="calc-btns" id="divide">/</button>
+                    <button class="calc-btns operation" id="divide">/</button>
                 </div>
                 <div class="row-2">
                     <button class="calc-btns" id="seven">7</button>
                     <button class="calc-btns" id="eight">8</button>
                     <button class="calc-btns" id="nine">9</button>
-                    <button class="calc-btns" id="multiply">x</button>
+                    <button class="calc-btns operation" id="multiply">x</button>
                 </div>
                 <div class="row-3">
                     <button class="calc-btns" id="four">4</button>
                     <button class="calc-btns" id="five">5</button>
                     <button class="calc-btns" id="six">6</button>
-                    <button class="calc-btns" id="minus">-</button>
+                    <button class="calc-btns operation" id="minus">-</button>
                 </div>
                 <div class="row-4">
                     <button class="calc-btns" id="one">1</button>
                     <button class="calc-btns" id="two">2</button>
                     <button class="calc-btns" id="three">3</button>
-                    <button class="calc-btns" id="plus">+</button>
+                    <button class="calc-btns operation" id="plus">+</button>
                 </div>
                 <div class="row-5">
                     <button class="calc-btns" id="zero">0</button>
                     <button class="calc-btns" id="comma">.</button>
-                    <button class="calc-btns" id="equal">=</button>
+                    <button class="calc-btns operation" id="equal">=</button>
                 </div>
 
             </div>
 
         </div>
-
-
-
 
 </body>
 </html>
