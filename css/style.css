@@ -61,13 +61,12 @@ input :active {
     border: 0.001rem solid #b8b7b7;
 }
 
-.active {
-    background-color: red;
-
+button:hover {
+    background: #946307;
 }
 
 .operation {
-    background-color: orange;
+    background-color: #ffa500;
 }
 
 #zero {
